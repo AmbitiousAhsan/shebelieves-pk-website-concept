@@ -1,0 +1,15 @@
+{
+  "name": "SheBelieves — Twin Cities sisterhood (concept preview)",
+  "short_name": "SheBelieves",
+  "description": "Independent concept preview for the SheBelieves women-only Twin Cities community, built from public content.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FBF6EF",
+  "theme_color": "#011246",
+  "icons": [
+    { "src": "assets/brand/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/brand/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/brand/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
