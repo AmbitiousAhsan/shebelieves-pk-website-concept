@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "hero-community",
+    "asset": "/assets/stories/hero-community.webp",
+    "source_url": "https://www.tiktok.com/@shebelieves.pk/video/7586238790667193607",
+    "alt": "Community hike group",
+    "public_source": "@shebelieves.pk on TikTok",
+    "dimensions": [
+      576,
+      433
+    ]
+  },
+  {
+    "slug": "hike-friends",
+    "asset": "/assets/stories/hike-friends.webp",
+    "source_url": "https://www.tiktok.com/@shebelieves.pk/video/7586238790667193607",
+    "alt": "Women connecting during a SheBelieves hike",
+    "public_source": "@shebelieves.pk on TikTok",
+    "dimensions": [
+      576,
+      768
+    ]
+  },
+  {
+    "slug": "riding-adventure",
+    "asset": "/assets/stories/riding-adventure.webp",
+    "source_url": "https://www.tiktok.com/@shebelieves.pk/video/7569658548527959304",
+    "alt": "A participant at a SheBelieves riding and archery camp",
+    "public_source": "@shebelieves.pk on TikTok",
+    "dimensions": [
+      576,
+      768
+    ]
+  },
+  {
+    "slug": "golf-workshop",
+    "asset": "/assets/stories/golf-workshop.webp",
+    "source_url": "https://www.tiktok.com/@shebelieves.pk/video/7581172949768506632",
+    "alt": "A participant practicing at a SheBelieves golf workshop",
+    "public_source": "@shebelieves.pk on TikTok",
+    "dimensions": [
+      464,
+      832
+    ]
+  },
+  {
+    "slug": "vision-board-circle",
+    "asset": "/assets/stories/vision-board-circle.webp",
+    "source_url": "https://www.tiktok.com/@shebelieves.pk/video/7588913148514585874",
+    "alt": "Participants making vision boards together outdoors",
+    "public_source": "@shebelieves.pk on TikTok",
+    "dimensions": [
+      576,
+      1018
+    ]
+  },
+  {
+    "slug": "give-back-team",
+    "asset": "/assets/stories/give-back-team.webp",
+    "source_url": "https://www.tiktok.com/@shebelieves.pk/video/7552585302041169159",
+    "alt": "The SheBelieves flood-relief support team",
+    "public_source": "@shebelieves.pk on TikTok",
+    "dimensions": [
+      576,
+      325
+    ]
+  },
+  {
+    "slug": "climbing-courage",
+    "asset": "/assets/stories/climbing-courage.webp",
+    "source_url": "https://www.tiktok.com/@shebelieves.pk/video/7576460143953448210",
+    "alt": "A participant trying rock climbing at a SheBelieves camp",
+    "public_source": "@shebelieves.pk on TikTok",
+    "dimensions": [
+      448,
+      696
+    ]
+  },
+  {
+    "slug": "qawali-night",
+    "asset": "/assets/stories/qawali-night.webp",
+    "source_url": "https://www.tiktok.com/@shebelieves.pk/video/7583844829843557640",
+    "alt": "A live performance at a SheBelieves Qawali night",
+    "public_source": "@shebelieves.pk on TikTok",
+    "dimensions": [
+      1050,
+      1400
+    ]
+  }
+]

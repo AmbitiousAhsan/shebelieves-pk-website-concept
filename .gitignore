@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+research/videos/
+research/frame-samples/
+research/*contact-sheet*
