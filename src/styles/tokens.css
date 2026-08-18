@@ -1,0 +1,60 @@
+/* Palette sampled from the official SheBelieves logo file:
+   deep ink navy #011246 and the wing's magenta #C11458, on warm off-white paper.
+   Sand is the single warm accent. */
+:root {
+  --ink: #011246;
+  --ink-deep: #01092a;
+  --ink-mid: #24325c;
+  --ink-soft: #4b587c;
+  --magenta: #c11458;
+  --magenta-deep: #9d0f46;
+  --magenta-bright: #ef4f8b;
+  --paper: #fbf6ef;
+  --paper-warm: #f4ebdf;
+  --paper-blush: #f8eee6;
+  --sand: #d99340;
+  --white: #ffffff;
+
+  --line: rgb(1 18 70 / 14%);
+  --line-strong: rgb(1 18 70 / 26%);
+  --line-light: rgb(255 255 255 / 16%);
+  --surface-dark: rgb(255 255 255 / 5%);
+
+  --font-display: 'Fraunces Variable', 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body: 'Manrope Variable', 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --step-hero: clamp(2.55rem, 1.35rem + 6vw, 5.1rem);
+  --step-section: clamp(1.95rem, 1.25rem + 3.2vw, 3.35rem);
+  --step-card: clamp(1.3rem, 1.1rem + 0.7vw, 1.6rem);
+  --step-lead: clamp(1.06rem, 1rem + 0.42vw, 1.28rem);
+  --step-body: clamp(1rem, 0.97rem + 0.16vw, 1.09rem);
+  --step-small: 0.875rem;
+  --step-micro: 0.775rem;
+
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-s: 1rem;
+  --space-m: 1.5rem;
+  --space-l: 2.25rem;
+  --space-xl: 3.5rem;
+  --space-2xl: clamp(3.75rem, 2.5rem + 5vw, 7rem);
+
+  --radius-s: 10px;
+  --radius-m: 16px;
+  --radius-l: 22px;
+  --radius-pill: 999px;
+
+  --shell: 1180px;
+  --measure: 34rem;
+  --header-h: 60px;
+
+  --shadow-soft: 0 18px 40px -28px rgb(1 18 70 / 45%);
+  --shadow-lift: 0 26px 60px -34px rgb(1 18 70 / 55%);
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@media (min-width: 62rem) {
+  :root {
+    --header-h: 74px;
+  }
+}
