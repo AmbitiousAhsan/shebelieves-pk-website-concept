@@ -1,5 +1,8 @@
 # SheBelieves.pk — single-page website concept
 
+- **Founder-review preview:** <https://ambitiousahsan.github.io/shebelieves-pk-website-concept/>
+- **Repository:** <https://github.com/AmbitiousAhsan/shebelieves-pk-website-concept>
+
 An independent, research-backed single-page concept for **SheBelieves**, a women-only Twin Cities
 (Islamabad / Rawalpindi) sisterhood community. It is a static site: Vite, TypeScript, hand-written
 semantic HTML and CSS, no framework and no runtime dependencies.
