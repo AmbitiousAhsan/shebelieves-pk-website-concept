@@ -20,19 +20,26 @@ const HTML_FILE = DIST_MODE ? path.join(ROOT, 'dist', 'index.html') : path.join(
 const PUBLIC_DIR = path.join(ROOT, 'public');
 const DIST_DIR = path.join(ROOT, 'dist');
 
-const ALLOWED_HOSTS = new Set(['www.instagram.com', 'www.tiktok.com']);
+const ALLOWED_HOSTS = new Set([
+  'www.instagram.com',
+  'www.tiktok.com',
+  'www.girlpowerorg.com',
+  'www.womenssportsfoundation.org',
+  'www.alexmorganfoundation.org',
+]);
 
 const REQUIRED_COPY = [
-  'Independent concept preview · Built from public SheBelieves content for founder feedback.',
-  'Find your next brave thing',
-  '— and your people.',
+  'Founder collaboration preview · SheBelieves assets used with permission',
+  'Hikes, Qawali, football, paint.',
+  'Pick a plan.',
+  'Choose your next step',
   'Twin Cities Sisterhood Community to Connect, Network, Grow Learn Leadership.',
   'Concept &amp; build by Ahsan Khan.',
   'https://www.instagram.com/shebelieves.pk/',
   'https://www.tiktok.com/@shebelieves.pk',
 ];
 
-const REQUIRED_IDS = ['main', 'top', 'belonging', 'lanes', 'seen', 'first-time', 'join', 'connect'];
+const REQUIRED_IDS = ['main', 'top', 'belonging', 'lanes', 'seen', 'get-involved', 'first-time', 'join', 'connect'];
 
 const BANNED_PATTERNS = [
   { label: 'placeholder copy', re: /\b(lorem ipsum|todo:|tbd\b|placeholder|coming soon|dummy text)/i },

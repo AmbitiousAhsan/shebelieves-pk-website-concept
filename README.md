@@ -7,22 +7,25 @@ An independent, research-backed single-page concept for **SheBelieves**, a women
 (Islamabad / Rawalpindi) sisterhood community. It is a static site: Vite, TypeScript, hand-written
 semantic HTML and CSS, no framework and no runtime dependencies.
 
-> **Status:** Independent concept preview, built from public SheBelieves content for founder
-> feedback. It is not an official SheBelieves website and not a commissioned client project.
+> **Status:** Founder collaboration preview. SheBelieves assets are used with permission; live
+> event, registration, eligibility and safety details remain on the team's official channels.
 
 ## What is on the page
 
 1. Concept-preview notice.
 2. Sticky, keyboard-accessible header with the supplied logo, anchor navigation, Instagram CTA and a
    mobile menu.
-3. Hero — “Find your next brave thing — and your people.” with an editorial photo composition.
+3. Hero — “Hikes, Qawali, football, paint. Pick a plan.” with an editorial photo composition.
 4. Move · Create · Connect · Grow identity strip.
-5. Manifesto: why belonging, not the activity, is the real product.
+5. Mission and four participation pathways: play and move, create and connect, learn and lead,
+   and give back.
 6. Six experience lanes — Adventure, Sport, Create, Reset, Gather, Give Back.
 7. “Seen in the community” — eight real frames, each linking to its exact public source post.
-8. First-timer section answering “Can I come alone?” without inventing operational promises.
-9. Three-step path: discover on social → DM and check details → show up.
-10. Final CTA (Instagram + TikTok) and a footer with source attribution and credits.
+8. Three clear ways to get involved: join an experience, volunteer and explore a partnership.
+9. First-timer section answering “Can I come alone?” without inventing operational promises.
+10. Three-step path: discover on social → DM and check details → show up.
+11. Final CTA (Instagram + TikTok), source attribution, permission status and the three design
+    references supplied by the SheBelieves team.
 
 ## Requirements
 
@@ -121,14 +124,13 @@ Learn Leadership.” — is SheBelieves' own.
 - **Nothing is invented.** No upcoming events, participant counts, testimonials, prices, partners,
   safety procedures or impact metrics appear anywhere, because none of those are publicly verified.
   The check script actively blocks them from creeping in later.
-- **No implied client relationship.** The page states, in the header and the footer, that it is an
-  independent concept preview built for founder feedback.
+- **Collaboration is labeled accurately.** The page states that it is a working founder
+  collaboration preview, not the final official website.
 - **No private contact details.** Only the public Instagram and TikTok accounts are linked; no
   personal or founder email address or phone number is published.
-- **Images belong to SheBelieves and to the women in them.** They are used here as public-source
-  references with a visible “From @shebelieves.pk” credit and a link to the original post. If the
-  SheBelieves team asks for any image, quote or the preview itself to be taken down or changed, that
-  request wins immediately.
+- **Images belong to SheBelieves and to the women in them.** SheBelieves assets are used with
+  permission and retain visible source links. If the team asks for any image, quote or the preview
+  itself to be taken down or changed, that request wins immediately.
 - **Before anything goes public beyond founder review**, confirm: photo permissions, founder and
   team names, service area, activity list, age eligibility, and whether the preview may be used as a
   portfolio case study.
