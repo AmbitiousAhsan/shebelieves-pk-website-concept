@@ -343,6 +343,10 @@
   color: var(--white);
 }
 
+.footer-note--wide {
+  grid-column: 1 / -1;
+}
+
 .site-footer__base {
   display: flex;
   flex-wrap: wrap;

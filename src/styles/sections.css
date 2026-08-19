@@ -194,6 +194,45 @@
   color: var(--ink);
 }
 
+.mission-pathways {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: var(--space-l);
+}
+
+.mission-pathway {
+  display: grid;
+  grid-template-columns: 2.4rem minmax(0, 1fr);
+  gap: 0.18rem 0.8rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.mission-pathway > span {
+  grid-row: 1 / span 2;
+  color: var(--magenta);
+  font-size: var(--step-micro);
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.mission-pathway h3 {
+  font-size: clamp(1.15rem, 1rem + 0.45vw, 1.4rem);
+}
+
+.mission-pathway p {
+  margin: 0.3rem 0 0;
+  color: var(--ink-mid);
+  font-size: 0.96rem;
+}
+
+@media (min-width: 45rem) {
+  .mission-pathways {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 1.5rem;
+  }
+}
+
 .pull-quote {
   max-width: var(--measure);
   margin: var(--space-l) 0 0;
@@ -343,6 +382,86 @@
   .lanes {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: var(--space-l) var(--space-m);
+  }
+}
+
+/* ── Participation pathways ───────────────────────────────────────────── */
+.involvement {
+  border-top: 1px solid var(--line);
+}
+
+.involvement__head {
+  max-width: 52rem;
+}
+
+.involvement__grid {
+  display: grid;
+  gap: var(--space-m);
+  margin-top: var(--space-l);
+}
+
+.involvement-card {
+  position: relative;
+  display: flex;
+  min-height: 18rem;
+  flex-direction: column;
+  padding: clamp(1.25rem, 1rem + 1vw, 1.8rem);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-l);
+  background: var(--white);
+  box-shadow: var(--shadow-soft);
+}
+
+.involvement-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto;
+  height: 0.38rem;
+  background: var(--magenta);
+}
+
+.involvement-card--support::before {
+  background: #e5a51b;
+}
+
+.involvement-card--partner::before {
+  background: #315b51;
+}
+
+.involvement-card__eyebrow {
+  margin: 0 0 var(--space-m);
+  color: var(--magenta);
+  font-size: var(--step-micro);
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.involvement-card h3 {
+  font-size: var(--step-card);
+}
+
+.involvement-card > p:not(.involvement-card__eyebrow) {
+  margin: 0.75rem 0 var(--space-l);
+  color: var(--ink-mid);
+}
+
+.involvement-card .text-link {
+  margin-top: auto;
+  color: var(--ink);
+  font-weight: 800;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.25em;
+}
+
+.involvement-card .text-link:hover {
+  color: var(--magenta);
+}
+
+@media (min-width: 48rem) {
+  .involvement__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
